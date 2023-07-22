@@ -1,14 +1,14 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+  TOKEN: process.env.TOKEN || "",
+  PREFIX: process.env.PREFIX || ";",
   embed: {
-    color: process.env.color || "#220f80",
+    color: process.env.color || "#ff88ff", //"#220f80"
     wrongcolor: process.env.wrongcolor || "#8a0808",
-    footertext: "Coded By Kabir Singh | Tech Boy Development",
+    footertext: "Edited by ponnie | nonmaipor",
   },
   emoji: {
     ERROR: "❌",
-    SUCCESS: "✅",
+    SUCCESS: "✔️",
     disabled: "🔴",
     enabled: "🟢",
     cleared: "🧹",
@@ -23,7 +23,7 @@ module.exports = {
     autoplay: "♾",
   },
   // others
-  mongodb: process.env.MONGO_URL || "MONGO_URL",
+  mongodb: process.env.MONGO_URL || "mongodb+srv://taninsk137:i1QZ9QadJFbB7r1z@cluster0.cv1cw25.mongodb.net/?retryWrites=true&w=majority",
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",
@@ -73,15 +73,15 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
-    Website: `https://jugnu.netlify.app/`,
+      `https://discord.com/oauth2/authorize?client_id=1033751088479879268&scope=bot&permissions=415566916673`,
+    DiscordServer: process.env.DiscordServer || `https://discord.gg/BCnpVz72hx`,
+    VoteURL: process.env.VoteURL || `https://discord.gg/BCnpVz72hx`,
+    Website: `https://discord.gg/BCnpVz72hx`,
   },
   options: {
     embedFooter: true,
     nowplayingMsg: true,
-    defaultVolume: 69,
+    defaultVolume: 100,
   },
   numberEmojis: [
     `0️⃣`,
@@ -98,6 +98,6 @@ module.exports = {
   ],
   slash: {
     global: true,
-    guildID: process.env.GUILD_ID || "SERVER_ID", // for slash command
+    guildID: process.env.GUILD_ID || "", // for slash command
   },
 };
