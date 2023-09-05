@@ -1,6 +1,6 @@
 module.exports = {
   TOKEN: process.env.TOKEN || "",
-  PREFIX: process.env.PREFIX || ";",
+  PREFIX: process.env.PREFIX || "_",
   embed: {
     color: process.env.color || "#ff88ff", //"#220f80"
     wrongcolor: process.env.wrongcolor || "#8a0808",
@@ -73,7 +73,7 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.com/oauth2/authorize?client_id=1033751088479879268&scope=bot&permissions=415566916673`,
+      `https://discord.com/oauth2/authorize?client_id=1047066278600388608&scope=bot&permissions=415566916673`,
     DiscordServer: process.env.DiscordServer || `https://discord.gg/BCnpVz72hx`,
     VoteURL: process.env.VoteURL || `https://discord.gg/BCnpVz72hx`,
     Website: `https://discord.gg/BCnpVz72hx`,
@@ -98,6 +98,6 @@ module.exports = {
   ],
   slash: {
     global: true,
-    guildID: process.env.GUILD_ID || "", // for slash command
+    guildID: process.env.GUILD_ID || "835746892271845408", // for slash command
   },
 };
