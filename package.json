@@ -32,13 +32,13 @@
     "distube": "^4.1.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-rate-limit": "^7.1.4",
+    "express-rate-limit": "^7.1.5",
     "ffmpeg-static": "^5.2.0",
     "helmet": "^7.1.0",
     "libsodium-wrappers": "^0.7.13",
     "opusscript": "^0.1.1",
     "simple-find-lyrics": "^0.0.1",
-    "systeminformation": "^5.21.17",
+    "systeminformation": "^5.21.18",
     "tweetnacl": "^1.0.3"
   },
   "engines": {
