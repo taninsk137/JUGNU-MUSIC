@@ -40,5 +40,8 @@
     "simple-find-lyrics": "^0.0.1",
     "systeminformation": "^5.21.22",
     "tweetnacl": "^1.0.3"
-  }
+  },
+    "engines": {
+        "node": ">=16.0.0"
+    }
 }
